@@ -1,0 +1,47 @@
+{
+  "scope": "full-extension",
+  "isRedesign": true,
+  "targetPath": "src/popup.tsx + all components",
+  "targetName": "SAVANTSNIPOOR Extension UI",
+  "painPoints": ["Feels amateur/rough", "Too cluttered/dense"],
+  "inspiration": {
+    "visual": ["Rabby Wallet (speed/responsiveness)", "Minimal essential tools"],
+    "functional": ["Progressive disclosure", "Fast task completion", "Options to go deeper"]
+  },
+  "brand": {
+    "adjectives": ["surgical", "premium", "fast/aggressive"],
+    "density": "minimal-essential",
+    "darkMode": true,
+    "direction": "evolve-or-fresh"
+  },
+  "persona": {
+    "primary": "NFT trader/sniper",
+    "context": "desktop-first (Chrome extension)",
+    "keyTasks": [
+      "Set up multi-wallet fleet",
+      "Configure and execute mint snipe",
+      "Consolidate funds/NFTs back to master",
+      "Import/export keys (available but not front-and-center)"
+    ]
+  },
+  "constraints": {
+    "mustKeep": ["Core wallet/mint/consolidate functionality"],
+    "technical": ["Chrome MV3 extension", "React 19 + TypeScript", "Plain CSS"],
+    "formats": ["Popup (400px wide)", "Sidebar panel variant"]
+  },
+  "framework": "chrome-extension-webpack",
+  "packageManager": "npm",
+  "stylingSystem": "css-custom-properties",
+  "currentTokens": {
+    "bg": "#080b10",
+    "surface": "#0d1117",
+    "border": "#1a2332",
+    "accent": "#00f5c4",
+    "accent2": "#ff3cac",
+    "warn": "#ffb800",
+    "text": "#c9d1d9",
+    "muted": "#4a5568",
+    "fontMono": "Share Tech Mono",
+    "fontUI": "Rajdhani"
+  }
+}
