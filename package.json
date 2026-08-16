@@ -1,0 +1,37 @@
+{
+  "name": "savantsnipoor",
+  "version": "0.3.6",
+  "description": "Multi-wallet NFT sniper extension",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@iconoma-icons/collection": "file:../ICONOMA/packages/collection",
+    "@iconoma-icons/core": "file:../ICONOMA/packages/core",
+    "ethers": "^6.16.0",
+    "iconoma-icons": "file:../ICONOMA/packages/iconoma-icons",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.304",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@vitest/coverage-v8": "^4.1.6",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "dotenv": "^17.4.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.10.2",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.6",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^5.1.4"
+  }
+}
