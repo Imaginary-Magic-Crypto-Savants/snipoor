@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "SAVANTSNIPOOR",
+  "version": "0.3.9",
+  "description": "Multi-wallet NFT sniper: create/import wallets, auto-detect mint functions, mint on Ethereum, Base, Arbitrum, Robinhood.",
+  "minimum_chrome_version": "114",
+  "permissions": ["storage", "sidePanel", "alarms"],
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "host_permissions": [
+    "https://*.llamarpc.com/*",
+    "https://mainnet.base.org/*",
+    "https://*.arbitrum.io/*",
+    "https://*.g.alchemy.com/*",
+    "https://api.coingecko.com/*",
+    "https://rpc.ankr.com/*",
+    "https://*.publicnode.com/*",
+    "https://1rpc.io/*",
+    "https://*.drpc.org/*",
+    "https://*.meowrpc.com/*",
+    "https://api.etherscan.io/*",
+    "https://imcs.world/*",
+    "https://*.imcs.world/*",
+    "https://api.scatter.art/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png",
+    "192": "icon192.png",
+    "512": "icon512.png"
+  }
+}
